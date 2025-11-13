@@ -1,6 +1,43 @@
 {
     "github.copilot.nextEditSuggestions.enabled": true,
     "workbench.colorTheme": "Quiet Light",
+
+    // --------------------------
+    // Typography / font setup
+    // --------------------------
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    // Use Fira Code ligatures + nice stylistic sets
+    "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'zero'",
+    // Weight 400–450 is usually the sweet spot
+    "editor.fontWeight": "400",
+    // Tweak these two if you want bigger/smaller text
+    "editor.fontSize": 14,
+    "editor.lineHeight": 22,
+    // Slightly relaxed tracking for readability
+    "editor.letterSpacing": 0.2,
+
+    // --------------------------
+    // Cursor + highlighting
+    // --------------------------
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.renderLineHighlight": "all",
+    "editor.renderWhitespace": "selection",
+
+    // --------------------------
+    // Visual noise / distractions
+    // --------------------------
+    "editor.minimap.enabled": false,
+    "editor.renderControlCharacters": false,
+    "editor.glyphMargin": true,
+
+    // Optional: if comments don't honor your bold rule in some themes,
+    // you can flip this to false.
+    // "editor.semanticHighlighting.enabled": false,
+
+    // --------------------------
+    // Comment color + bold
+    // --------------------------
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
