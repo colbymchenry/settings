@@ -1,0 +1,21 @@
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "workbench.colorTheme": "Quiet Light",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "comment.block",
+                    "comment.block.documentation",
+                    "punctuation.definition.comment",
+                    "comment.block.documentation punctuation.definition.comment"
+                ],
+                "settings": {
+                    "foreground": "#f97316",
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    }
+}
